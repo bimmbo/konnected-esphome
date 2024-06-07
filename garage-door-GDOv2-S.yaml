@@ -122,7 +122,7 @@ packages:
       # GARAGE DOOR RANGE SENSOR
       # Enables the optical laser range sensor included with some Konnected Garage Door opener models to detect
       # the open/closed state of an overhead garage door.    
-      - packages/vl53l0x-range-sensor.yaml
+      # - packages/vl53l0x-range-sensor.yaml
 
       ####
       # GARAGE DOOR COVER
@@ -131,10 +131,10 @@ packages:
       # CHOOSE ONE of the following cover packages depending on the sensors used to determine the open/closed state of the door.
       #
       # 1. RANGE SENSOR ONLY - Include this line and remove or comment out the garage_door_wired_sensor package below.
-      - packages/garage-door-cover-range.yaml
+      # - packages/garage-door-cover-range.yaml
       #
       # 2. WIRED SENSOR ONLY - Include this line and remove or comment out the vl53l0x_range_sensor package below.
-      # - packages/garage-door-cover-wired.yaml
+      - packages/garage-door-cover-wired.yaml
       #
       # 3. WIRED & RANGE SENSORS - Include this line.
       # - packages/garage-door-cover-wired-and-range.yaml
