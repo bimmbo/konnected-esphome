@@ -102,7 +102,7 @@ substitutions:
 packages:
 
   remote_package:
-    url: https://github.com/konnected-io/konnected-esphome
+    url: https://github.com/bimmbo/konnected-esphome
     ref: master
     refresh: 5min
     files:
@@ -186,7 +186,7 @@ packages:
 # Enables automatic discovery and upgrades via ESPHome Dashboard
 # more: https://esphome.io/guides/getting_started_hassio.html
 dashboard_import:
-  package_import_url: github://konnected-io/konnected-esphome/garage-door-GDOv2-S.yaml@master
+  package_import_url: github://bimmbo/konnected-esphome/garage-door-GDOv2-S.yaml@master
   import_full_config: false
 
 #### 
