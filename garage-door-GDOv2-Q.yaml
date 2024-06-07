@@ -118,7 +118,7 @@ packages:
       ####
       # WIFI
       # Enables WiFi connectivity and diagnostics. Uncommet below to enable WiFi.
-      # wifi: !include packages/wifi.yaml
+       wifi: !include packages/wifi.yaml
       - packages/wifi.yaml
 
       ####
@@ -131,8 +131,8 @@ packages:
       # PRE-CLOSE WARNING
       # Enables a pleasant and customizable pre-close warning tone  using the onboard piezo buzzer. Used to audibly
       # warn of a garage door automatic closing.
-      - packages/buzzer-rtttl.yaml
-      - packages/pre-close-warning-tones.yaml
+      # - packages/buzzer-rtttl.yaml
+      # - packages/pre-close-warning-tones.yaml
 
       ####
       # STATUS LED
@@ -193,6 +193,6 @@ web_server:
 esphome:
   platformio_options:
     lib_deps:
-      - https://github.com/bimmbo/gdolib
+      - https://github.com/konnected-io/gdolib
     build_flags:
       - -DUART_SCLK_DEFAULT=UART_SCLK_APB
