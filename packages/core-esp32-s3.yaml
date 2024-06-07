@@ -25,7 +25,7 @@ substitutions:
 
 # overrides the MDNS component to add a Konnected service
 external_components:
-  - source: github://konnected-io/konnected-esphome@master
+  - source: github://bimmbo/konnected-esphome@master
     components: [ mdns, secplus_gdo ]
 
 text_sensor:
