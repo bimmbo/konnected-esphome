@@ -1,7 +1,7 @@
-#script:
-#  - id: pc_warn
-#    then:
-#      - button.press: pre_close_warning
+script:
+  - id: pc_warn
+    then:
+      - button.press: pre_close_warning
 
 secplus_gdo:
   id: gdo_blaq
