@@ -1,7 +1,7 @@
-script:
-  - id: pc_warn
-    then:
-      - button.press: pre_close_warning
+#script:
+#  - id: pc_warn
+#    then:
+#      - button.press: pre_close_warning
 
 secplus_gdo:
   id: gdo_blaq
@@ -19,13 +19,13 @@ cover:
     name: $garage_door_cover_name
     secplus_gdo_id: gdo_blaq
     id: gdo_door
-    pre_close_warning_duration: $garage_door_close_warning_duration
-    pre_close_warning_start:
-      - script.execute:
-          id: pc_warn
-    pre_close_warning_end:
-      - script.stop: pc_warn
-      - light.turn_off: warning_led
+    # pre_close_warning_duration: $garage_door_close_warning_duration
+    # pre_close_warning_start:
+    #  - script.execute:
+    #      id: pc_warn
+    # pre_close_warning_end:
+    #  - script.stop: pc_warn
+    #  - light.turn_off: warning_led
 
 sensor:
   - platform: secplus_gdo
