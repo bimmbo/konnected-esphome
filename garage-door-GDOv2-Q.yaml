@@ -193,6 +193,6 @@ web_server:
 esphome:
   platformio_options:
     lib_deps:
-      - https://github.com/konnected-io/gdolib
+      - https://github.com/bimmbo/gdolib
     build_flags:
       - -DUART_SCLK_DEFAULT=UART_SCLK_APB
