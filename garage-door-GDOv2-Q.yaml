@@ -118,7 +118,7 @@ packages:
       ####
       # WIFI
       # Enables WiFi connectivity and diagnostics. Uncommet below to enable WiFi.
-       wifi: !include packages/wifi.yaml
+      wifi: !include packages/wifi.yaml
       - packages/wifi.yaml
 
       ####
