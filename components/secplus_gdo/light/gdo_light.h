@@ -18,7 +18,7 @@
 #pragma once
 
 #include "esphome/core/component.h"
-#include "esphome/components/binary/light/binary_light_output.h"
+#include "esphome/components/light/binary_light_output.h"
 #include "gdo.h"
 
 namespace esphome {
